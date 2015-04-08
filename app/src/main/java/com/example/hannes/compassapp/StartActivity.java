@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.EditText;
 
 
 public class StartActivity extends ActionBarActivity {
@@ -43,7 +42,7 @@ public class StartActivity extends ActionBarActivity {
     /** Called when the user clicks the button */
     public void startCompass(View view) {
         // Do something in response to button
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, CompassActivity.class);
         startActivity(intent);
     }
 }

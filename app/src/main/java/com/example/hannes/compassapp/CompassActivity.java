@@ -10,7 +10,7 @@ import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 
-public class MainActivity extends Activity implements SensorEventListener {
+public class CompassActivity extends Activity implements SensorEventListener {
 
     private ImageView mPointer;
     private SensorManager mSensorManager;
